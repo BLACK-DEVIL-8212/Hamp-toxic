@@ -39,7 +39,7 @@ def get_coordinates(phone_number):
         return None
 
 # Example usage
-phone_number = "+916204922099"  # Replace with the phone number you want to locate
+phone_number = "+911234567890"  # Replace with the phone number you want to locate
 coordinates = get_coordinates(phone_number)
 
 if coordinates is not None:
