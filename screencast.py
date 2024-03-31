@@ -3,10 +3,11 @@ import pyautogui
 
 # Set up the server
 HOST = '127.0.0.1'  # IP address of the server
-PORT = 5000  # Port number to use
+PORT = 4444  # Port number to use
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind((HOST, PORT))
 s.listen(1)
+time.sleep(2)
 print(f"Server started on {HOST}:{PORT}")
 
 # Accept a client connection
